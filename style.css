@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main {
+    width: 100%;
+    background: url(pics/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 58vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 60px; 
+}
+
+ul{
+    margin-top: 0%;
+    margin-right: 4%;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:antiquewhite;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color:aquamarine;
+}
+
+header {
+    background-color:teal;
+    color: #fff;
+    padding: 4px 0;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: 0%;
+}
+
+.about-section h2 {
+    font-size: 25px;
+}
+    
+.our-mission {
+    font-size: 25px;
+    color: black;
+}
+
+.our-team {
+    font-size: 20px;
+    color: black;
+}
+
+.about-appointment {
+    margin-left: 2%;
+}
+
+.services {
+    padding: 20px 0;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.service-info {
+    flex: 1;
+}
+
+.service-info h3 {
+    margin-top: 0;
+}
+
+.service-info p {
+    margin: 0;
+}
+
+.contact-page {
+    background: url(pics/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.about-page {
+    background: url(pics/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.appointment-page {
+    background: url(pics/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
